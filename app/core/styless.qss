@@ -1,0 +1,100 @@
+/*QMainWindow { background: #101419; }*/
+/*QMenuBar, QMenu, QStatusBar { color: #e8eaf6; background: #1b2330; }*/
+/*QLabel, QLineEdit, QComboBox, QTableWidget { color: #e8eaf6; }*/
+/*QPushButton { padding: 8px 12px; border-radius: 8px; }*/
+/* app/core/styles.qss */
+
+/* Main Window */
+QMainWindow {
+    background-color: #f5f6fa;
+}
+
+/* Sidebar */
+QListWidget {
+    background-color: #2c3e50;
+    border: none;
+    padding: 5px;
+}
+
+QListWidget::item {
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    font-weight: bold;
+}
+
+QListWidget::item:selected {
+    background-color: #3498db;
+}
+
+QListWidget::item:hover {
+    background-color: #34495e;
+}
+
+/* Tables */
+QTableWidget {
+    background-color: white;
+    alternate-background-color: #f8f9fa;
+    border: 1px solid #dcdde1;
+    border-radius: 5px;
+    gridline-color: #dcdde1;
+}
+
+QTableWidget::item {
+    padding: 8px;
+}
+
+QTableWidget::item:selected {
+    background-color: #3498db;
+    color: white;
+}
+
+QHeaderView::section {
+    background-color: #34495e;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #21618c;
+}
+
+/* Input Fields */
+QLineEdit, QSpinBox {
+    padding: 8px;
+    border: 2px solid #dcdde1;
+    border-radius: 5px;
+    background-color: white;
+}
+
+QLineEdit:focus, QSpinBox:focus {
+    border: 2px solid #3498db;
+}
+
+/* Labels */
+QLabel {
+    color: #2c3e50;
+}
+
+/* Widgets */
+QWidget#ItemsView, QWidget#PurchaseView, QWidget#SalesView {
+    background-color: #f5f6fa;
+    padding: 10px;
+}
