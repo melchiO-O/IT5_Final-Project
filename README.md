@@ -7,7 +7,7 @@ under this directory is the core of this project - the database
   # db.py
   is the one responsible for creating database for items and for purchase.
   
-# FEAUTURES
+# FEATURES
 under the features directory are the necessary items to be shown in the GUI, they are as follows;
   # DASHBOARD
   the dashboard stores the current date, the total sales, and the total transactions. It also updates automatically
