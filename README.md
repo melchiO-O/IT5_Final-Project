@@ -20,7 +20,7 @@ under the features directory are the necessary items to be shown in the GUI, the
 
 # SHELL
 under this directory is where or how the main window should look like.
-  # mmain_window
+  # main_window
   this file is where I was able to add image, tabs, the window title, or overall, this is where the structure of the window is located.
 
 # main
